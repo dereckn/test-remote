@@ -4,12 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Remote</title>
+    <title>Modal Vanilla JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <h2>Hello Back from github</h2>
+    <button class="button"></button>Open Modal</button>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Title</div>
+            <button class="close-button">&times</button>
+        </div>
+        <div class="modal-body">
+            <div class="25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, incidunt veritatis tenetur,
+                nemo possimus aspernatur vel necessitatibus expedita cumque, unde amet ipsam quasi est dolorum
+                doloremque. Dolore deleniti optio quo.</div>
+        </div>
+        <div id="overlay"></div>
+    </div>
 </body>
 
 </html>
